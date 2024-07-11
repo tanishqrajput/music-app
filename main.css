@@ -1,0 +1,78 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .flex {
+    display: flex;
+  }
+  header {
+    background-color: skyblue;
+    
+    border-radius: 10px;
+    
+   
+  }
+  .space-justify-between {
+    justify-content: space-between;
+  }
+  .align-item-center {
+    align-items: center;
+  }
+  .music-icon {
+    padding-left: 30px;
+    padding-right: 6px;
+    padding-top: 2px;
+  }
+  .left-side {
+    width: 50%;
+  }
+  .right-side {
+    padding-right: 40px;
+  }
+  .search-icon {
+    margin-right: 50px;
+  }
+  .user-id {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+  .user-id svg {
+    padding-left: 10px;
+  }
+  header .flex .right-side .user-id h2 {
+    border: none;
+    &:hover {
+      color: blue;
+    }
+    &:hover svg {
+      transform: rotate(180deg);
+    }
+  }
+  .SubNavBar {
+    color: crimson;
+    background-color: lightgreen;
+    height: 5vh;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  section .SubNavBar {
+    border: none;
+    &:hover {
+      color: blue;
+    }
+  }
+  .dropdown-menu {
+    position: absolute;
+  }
+  #search-bar {
+    border-radius: 8px;
+    border: none;
+    background-color: #f0f5ff;
+    font-size: 1.3em;
+    padding-left: 27px;
+    height: 5vh;
+  }
